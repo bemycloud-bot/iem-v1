@@ -184,6 +184,8 @@ def build_iem_screening_png_report(
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     flagged_text = ", ".join(map(str, flagged_ids)) if flagged_ids else "None"
     additional_text = ", ".join(map(str, additional_signal_ids)) if additional_signal_ids else "None"
+    flagged_text = textwrap.fill(flagged_text, width=120)
+    additional_text = textwrap.fill(additional_text, width=120)
 
     ax.text(0.5, 0.97, "IEM Screening Report", ha="center", va="top", fontsize=20, fontweight="bold", color="#1e8f4e")
     ax.text(
@@ -222,15 +224,64 @@ def build_iem_screening_png_report(
                 lambda v: "-" if pd.isna(v) else f"{float(v):.2f}"
             )
 
+        # Wrap long disease text and limit to two lines to keep rows readable.
+        if "top_1_disease" in table_df.columns:
+            def _wrap_disease(value: object) -> str:
+                text = "-" if pd.isna(value) else str(value)
+                if text == "-":
+                    return text
+                lines = textwrap.wrap(text, width=24)
+                if len(lines) > 2:
+                    lines = lines[:2]
+                    lines[-1] = lines[-1][:21].rstrip() + "..."
+                return "\n".join(lines)
+
+            table_df["top_1_disease"] = table_df["top_1_disease"].map(_wrap_disease)
+
+        col_widths = None
+        expected_cols = {
+            "sample_id",
+            "top_1_disease",
+            "top_1_prob_%",
+            "Marker",
+            "Value",
+            "MoM",
+            "Lower_Cutoff",
+            "Upper_Cutoff",
+        }
+        if expected_cols.issubset(set(table_df.columns)):
+            col_widths = [0.125, 0.205, 0.125, 0.125, 0.105, 0.08, 0.1175, 0.1175]
+
         table = ax.table(
             cellText=table_df.fillna("-").astype(str).values,
             colLabels=table_df.columns.tolist(),
             cellLoc="center",
             loc="upper left",
             bbox=[0.02, 0.07, 0.96, 0.66],
+            colWidths=col_widths,
         )
         table.auto_set_font_size(False)
-        table.set_fontsize(10)
+        table.set_fontsize(9)
+
+        disease_col_idx = table_df.columns.tolist().index("top_1_disease") if "top_1_disease" in table_df.columns else None
+        if disease_col_idx is not None:
+            line_counts = table_df.iloc[:, disease_col_idx].astype(str).map(lambda s: max(1, s.count("\n") + 1))
+            extra_lines_total = int((line_counts - 1).clip(lower=0).sum())
+            if extra_lines_total > 0:
+                fig.set_size_inches(16, fig_h + 0.15 * extra_lines_total, forward=True)
+
+            header_h = 0.082
+            base_row_h = 0.082
+            for (r, c), cell in table.get_celld().items():
+                if r == 0:
+                    cell.set_height(header_h)
+                else:
+                    lc = int(line_counts.iloc[r - 1]) if (r - 1) < len(line_counts) else 1
+                    cell.set_height(base_row_h * lc)
+                cell.get_text().set_va("center")
+                cell.get_text().set_ha("center")
+        else:
+            table.scale(1.0, 1.15)
 
         for (r, c), cell in table.get_celld().items():
             if r == 0:
@@ -330,17 +381,26 @@ def build_additional_signal_ids_png(
                 lambda v: "-" if pd.isna(v) else f"{float(v):.2f}"
             )
 
-        # Wrap long disease/pattern names to avoid overlapping into neighboring cells.
+        # Wrap long disease/pattern names to avoid overlap and cap line count per cell.
         if "Pattern" in table_df.columns:
-            table_df["Pattern"] = table_df["Pattern"].fillna("-").astype(str).map(
-                lambda s: "\n".join(textwrap.wrap(s, width=28)) if s and s != "-" else "-"
-            )
+            def _wrap_pattern(value: object) -> str:
+                text = "-" if pd.isna(value) else str(value)
+                if text == "-":
+                    return text
+                lines = textwrap.wrap(text, width=26)
+                if len(lines) > 3:
+                    lines = lines[:3]
+                    lines[-1] = lines[-1][:23].rstrip() + "..."
+                return "\n".join(lines)
 
-        # If wrapped text increases row height needs, slightly expand figure to keep readability.
+            table_df["Pattern"] = table_df["Pattern"].fillna("-").astype(str).map(_wrap_pattern)
+
+        # Expand figure based on total extra wrapped lines, not only the maximum row.
         if "Pattern" in table_df.columns:
-            max_lines = table_df["Pattern"].fillna("-").astype(str).map(lambda s: max(1, s.count("\n") + 1)).max()
-            if pd.notna(max_lines) and int(max_lines) > 1:
-                fig.set_size_inches(14, fig_h + 0.25 * (int(max_lines) - 1), forward=True)
+            line_counts = table_df["Pattern"].fillna("-").astype(str).map(lambda s: max(1, s.count("\n") + 1))
+            extra_lines_total = int((line_counts - 1).clip(lower=0).sum())
+            if extra_lines_total > 0:
+                fig.set_size_inches(14, fig_h + 0.12 * extra_lines_total, forward=True)
     elif row_count > 0:
         table_df = pd.DataFrame({"No.": list(range(1, row_count + 1)), "Sample ID": ids})
     else:
@@ -350,7 +410,7 @@ def build_additional_signal_ids_png(
         col_widths = None
         if has_details:
             # Keep Pattern wider and numeric columns compact for stable layout.
-            col_widths = [0.125, 0.255, 0.095, 0.125, 0.10, 0.075, 0.1125, 0.1125]
+            col_widths = [0.12, 0.29, 0.09, 0.12, 0.095, 0.07, 0.1075, 0.1075]
 
         table = ax.table(
             cellText=table_df.fillna("-").astype(str).values,
@@ -367,17 +427,19 @@ def build_additional_signal_ids_png(
         if has_details:
             pattern_col_idx = table_df.columns.tolist().index("Pattern") if "Pattern" in table_df.columns else None
             header_h = 0.085
-            base_row_h = 0.090
+            base_row_h = 0.085
             for (r, c), cell in table.get_celld().items():
                 if r == 0:
                     cell.set_height(header_h)
-                    continue
-                if pattern_col_idx is not None:
-                    pattern_text = str(table_df.iloc[r - 1, pattern_col_idx])
-                    line_count = max(1, pattern_text.count("\n") + 1)
                 else:
-                    line_count = 1
-                cell.set_height(base_row_h * line_count)
+                    if pattern_col_idx is not None:
+                        pattern_text = str(table_df.iloc[r - 1, pattern_col_idx])
+                        line_count = max(1, pattern_text.count("\n") + 1)
+                    else:
+                        line_count = 1
+                    cell.set_height(base_row_h * line_count)
+                cell.get_text().set_va("center")
+                cell.get_text().set_ha("center")
         else:
             # For simple ID-only table, keep slightly taller rows.
             table.scale(1.0, 1.25)
