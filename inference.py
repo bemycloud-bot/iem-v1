@@ -568,7 +568,10 @@ def apply_training_feature_engineering(
     if weight_by_col:
         weight_series = pd.Series(weight_by_col)
         target_cols = list(weight_series.index)
-        X.loc[:, target_cols] = X.loc[:, target_cols].mul(weight_series, axis=1)
+        scaled_df = X.loc[:, target_cols].mul(weight_series, axis=1)
+        # Assign column-by-column so pandas can safely upcast int columns to float.
+        for col in target_cols:
+            X[col] = pd.to_numeric(scaled_df[col], errors="coerce")
 
     X = X.replace([np.inf, -np.inf], np.nan)
     fill_values = X.median(numeric_only=True)
