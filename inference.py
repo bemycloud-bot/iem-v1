@@ -532,30 +532,44 @@ def apply_training_feature_engineering(
     X = work_df.drop(columns=drop_cols).copy()
     X = X.apply(pd.to_numeric, errors="coerce")
 
+    # Build derived columns in memory, then concat once to avoid highly fragmented DataFrame blocks.
+    derived_cols: Dict[str, pd.Series] = {}
     for marker, med in assets.median_map.items():
         if marker not in X.columns:
             continue
 
         if pd.notna(med) and med != 0:
-            X[f"{marker}_MoM"] = X[marker] / med
+            derived_cols[f"{marker}_MoM"] = X[marker] / med
         else:
-            X[f"{marker}_MoM"] = 1.0
+            derived_cols[f"{marker}_MoM"] = pd.Series(1.0, index=X.index)
 
         co = assets.cutoff_map.get(marker, {})
         lo = co.get("lower_cutoff")
         hi = co.get("upper_cutoff")
         if pd.notna(lo):
-            X[f"{marker}_below_cutoff"] = (X[marker] < lo).astype(int)
+            derived_cols[f"{marker}_below_cutoff"] = (X[marker] < lo).astype(int)
         if pd.notna(hi):
-            X[f"{marker}_above_cutoff"] = (X[marker] > hi).astype(int)
+            derived_cols[f"{marker}_above_cutoff"] = (X[marker] > hi).astype(int)
 
+    if derived_cols:
+        X = pd.concat([X, pd.DataFrame(derived_cols, index=X.index)], axis=1).copy()
+
+    weight_by_col: Dict[str, float] = {}
     for marker, weight in marker_weights.items():
         if marker in X.columns:
-            X[marker] = X[marker] * weight
+            weight_by_col[marker] = float(weight)
         for suffix in ("_MoM", "_below_cutoff", "_above_cutoff"):
             name = f"{marker}{suffix}"
             if name in X.columns:
-                X[name] = X[name] * weight
+                weight_by_col[name] = float(weight)
+
+    if weight_by_col:
+        weight_series = pd.Series(weight_by_col)
+        target_cols = list(weight_series.index)
+        scaled_df = X.loc[:, target_cols].mul(weight_series, axis=1)
+        # Assign per column so pandas can upcast int columns to float safely.
+        for col in target_cols:
+            X[col] = pd.to_numeric(scaled_df[col], errors="coerce")
 
     X = X.replace([np.inf, -np.inf], np.nan)
     fill_values = X.median(numeric_only=True)
