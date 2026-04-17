@@ -532,43 +532,30 @@ def apply_training_feature_engineering(
     X = work_df.drop(columns=drop_cols).copy()
     X = X.apply(pd.to_numeric, errors="coerce")
 
-    # Build derived columns in a batch to avoid DataFrame fragmentation from repeated inserts.
-    derived_cols: Dict[str, pd.Series] = {}
     for marker, med in assets.median_map.items():
         if marker not in X.columns:
             continue
 
         if pd.notna(med) and med != 0:
-            derived_cols[f"{marker}_MoM"] = X[marker] / med
+            X[f"{marker}_MoM"] = X[marker] / med
         else:
-            derived_cols[f"{marker}_MoM"] = pd.Series(1.0, index=X.index)
+            X[f"{marker}_MoM"] = 1.0
 
         co = assets.cutoff_map.get(marker, {})
         lo = co.get("lower_cutoff")
         hi = co.get("upper_cutoff")
         if pd.notna(lo):
-            derived_cols[f"{marker}_below_cutoff"] = (X[marker] < lo).astype(int)
+            X[f"{marker}_below_cutoff"] = (X[marker] < lo).astype(int)
         if pd.notna(hi):
-            derived_cols[f"{marker}_above_cutoff"] = (X[marker] > hi).astype(int)
+            X[f"{marker}_above_cutoff"] = (X[marker] > hi).astype(int)
 
-    if derived_cols:
-        derived_df = pd.DataFrame(derived_cols, index=X.index)
-        X = pd.concat([X, derived_df], axis=1)
-
-    # Apply marker weights in one vectorized assignment.
-    weight_by_col: Dict[str, float] = {}
     for marker, weight in marker_weights.items():
         if marker in X.columns:
-            weight_by_col[marker] = float(weight)
+            X[marker] = X[marker] * weight
         for suffix in ("_MoM", "_below_cutoff", "_above_cutoff"):
             name = f"{marker}{suffix}"
             if name in X.columns:
-                weight_by_col[name] = float(weight)
-
-    if weight_by_col:
-        weight_series = pd.Series(weight_by_col)
-        target_cols = list(weight_series.index)
-        X.loc[:, target_cols] = X.loc[:, target_cols].mul(weight_series, axis=1)
+                X[name] = X[name] * weight
 
     X = X.replace([np.inf, -np.inf], np.nan)
     fill_values = X.median(numeric_only=True)
