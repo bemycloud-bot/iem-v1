@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import functools
 import json
 import os
 import re
@@ -282,6 +283,7 @@ class FeatureAssets:
     pattern_df: Optional[pd.DataFrame]
 
 
+@functools.lru_cache(maxsize=4)
 def load_feature_engineering_assets(
     pattern_path: Path = DEFAULT_PATTERN_PATH,
     cutoff_excel: Path = DEFAULT_CUTOFF_XLSX,
@@ -562,6 +564,21 @@ def apply_training_feature_engineering(
     return X
 
 
+@functools.lru_cache(maxsize=4)
+def _load_model_cached(model_path: Path):
+    """Load and cache ML model from disk. Subsequent calls return the cached object."""
+    m = joblib.load(model_path)
+    patch_legacy_model_attrs(m)
+    return m
+
+
+@functools.lru_cache(maxsize=4)
+def _build_marker_weights_cached(train_csv_path: Optional[Path]) -> Dict[str, float]:
+    """Build and cache marker weights. Uses already-cached assets."""
+    assets = load_feature_engineering_assets()
+    return build_marker_weights(train_csv_path, assets.pattern_df)
+
+
 def predict_from_dataframe(
     input_df: pd.DataFrame,
     model_path: Path = DEFAULT_MODEL_PATH,
@@ -574,13 +591,12 @@ def predict_from_dataframe(
     if not model_path.exists():
         raise FileNotFoundError(f"Model not found: {model_path}")
 
-    model = joblib.load(model_path)
-    patch_legacy_model_attrs(model)
+    model = _load_model_cached(model_path)
     source_df = input_df.copy()
     id_col = detect_id_column(source_df, id_column)
 
     assets = load_feature_engineering_assets()
-    marker_weights = build_marker_weights(train_csv_path, assets.pattern_df)
+    marker_weights = _build_marker_weights_cached(train_csv_path)
     feature_df = apply_training_feature_engineering(source_df, id_col, assets, marker_weights)
 
     expected_features = get_expected_features(model)
