@@ -395,7 +395,7 @@ def build_additional_pattern_support_report(
             total_pattern_marker_count = len(markers)
 
             support_ratio = abnormal_count / available_marker_count
-            if support_ratio <= 0.3:
+            if support_ratio <= 0.5:
                 continue
 
             representative = pick_marker_for_disease(sample_marker_df, markers)
@@ -1393,9 +1393,9 @@ if run_button:
                 )
 
             with tab3:
-                st.caption("Diseases outside the model training set, reported when more than 30% of the pattern markers found in that sample are outside cut-off.")
+                st.caption("Diseases outside the model training set, reported when more than half of the pattern markers found in that sample are outside cut-off.")
                 if additional_pattern_df.empty:
-                    st.info("No additional disease-pattern signals exceeded the >30% abnormal-marker threshold among markers available in the sample.")
+                    st.info("No additional disease-pattern signals exceeded the >50% abnormal-marker threshold among markers available in the sample.")
                 else:
                     st.dataframe(additional_pattern_df, use_container_width=True)
                 st.download_button(
