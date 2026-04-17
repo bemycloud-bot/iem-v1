@@ -1,0 +1,3850 @@
+[
+    {
+        "DiseaseName": "Glutaric acidemia type 1 (GA1)",
+        "MarkerID": 96,
+        "QSIGHTMarkers": "c5dc\\c6oh/c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5DC\\C6OH/C4DC\\C5OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5DC\\C6OH",
+                "C4DC\\C5OH"
+            ],
+            "numerator_xml": "C5DC\\C6OH",
+            "numerator_type": "single",
+            "denominator_xml": "C4DC\\C5OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Glutaric acidemia type 1 (GA1)",
+        "MarkerID": 97,
+        "QSIGHTMarkers": "c5dc\\c6oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5DC\\C6OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5DC\\C6OH",
+                "C8"
+            ],
+            "numerator_xml": "C5DC\\C6OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Glutaric acidemia type 1 (GA1)",
+        "MarkerID": 95,
+        "QSIGHTMarkers": "c5dc\\c6oh/c3dc\\c4oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5DC\\C6OH/C3DC\\C4OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5DC\\C6OH",
+                "C3DC\\C4OH"
+            ],
+            "numerator_xml": "C5DC\\C6OH",
+            "numerator_type": "single",
+            "denominator_xml": "C3DC\\C4OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Glutaric acidemia type 1 (GA1)",
+        "MarkerID": 94,
+        "QSIGHTMarkers": "c5dc\\c6oh/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5DC\\C6OH/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5DC\\C6OH",
+                "C16"
+            ],
+            "numerator_xml": "C5DC\\C6OH",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Glutaric acidemia type 1 (GA1)",
+        "MarkerID": 40,
+        "QSIGHTMarkers": "c5dc\\c6oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5DC\\C6OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5DC\\C6OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Isovaleric acidemia (IVA)",
+        "MarkerID": 90,
+        "QSIGHTMarkers": "c5/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C2"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isovaleric acidemia (IVA)",
+        "MarkerID": 91,
+        "QSIGHTMarkers": "c5/c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C3",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C3"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C3",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isovaleric acidemia (IVA)",
+        "MarkerID": 92,
+        "QSIGHTMarkers": "c5/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C8"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isovaleric acidemia (IVA)",
+        "MarkerID": 38,
+        "QSIGHTMarkers": "c5",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 78,
+        "QSIGHTMarkers": "c3/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C16"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 77,
+        "QSIGHTMarkers": "c3/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C0"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 80,
+        "QSIGHTMarkers": "c3/met",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/MET",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "MET"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "MET",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 34,
+        "QSIGHTMarkers": "c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 17,
+        "QSIGHTMarkers": "c16:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1OH\\C17",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1OH\\C17"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Methylmalonic acidemia (MMA)",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Propionic acidemia (PA)",
+        "MarkerID": 78,
+        "QSIGHTMarkers": "c3/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C16"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Propionic acidemia (PA)",
+        "MarkerID": 77,
+        "QSIGHTMarkers": "c3/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C0"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Propionic acidemia (PA)",
+        "MarkerID": 80,
+        "QSIGHTMarkers": "c3/met",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/MET",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "MET"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "MET",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Propionic acidemia (PA)",
+        "MarkerID": 34,
+        "QSIGHTMarkers": "c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Propionic acidemia (PA)",
+        "MarkerID": 17,
+        "QSIGHTMarkers": "c16:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1OH\\C17",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1OH\\C17"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 79,
+        "QSIGHTMarkers": "c3/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C2"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 78,
+        "QSIGHTMarkers": "c3/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C16"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 77,
+        "QSIGHTMarkers": "c3/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C0"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple carboxylase deficiency (MCD)",
+        "MarkerID": 34,
+        "QSIGHTMarkers": "c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 79,
+        "QSIGHTMarkers": "c3/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C2"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 78,
+        "QSIGHTMarkers": "c3/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C16"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 77,
+        "QSIGHTMarkers": "c3/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C0"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 34,
+        "QSIGHTMarkers": "c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 17,
+        "QSIGHTMarkers": "c16:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1OH\\C17",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1OH\\C17"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Adenosylcobalamin synthesis defects",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Beta-Ketothiolase deficiency",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Beta-Ketothiolase deficiency",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Beta-Ketothiolase deficiency",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Beta-Ketothiolase deficiency",
+        "MarkerID": 35,
+        "QSIGHTMarkers": "c3dc\\c4oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3DC\\C4OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3DC\\C4OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Beta-Ketothiolase deficiency",
+        "MarkerID": 39,
+        "QSIGHTMarkers": "c5:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) lyase deficiency",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) lyase deficiency",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) lyase deficiency",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "3-Hydroxy-3-Methylglutaryl-CoA (HMG-CoA) lyase deficiency",
+        "MarkerID": 42,
+        "QSIGHTMarkers": "c6dc",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C6DC",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C6DC"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Isobutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 85,
+        "QSIGHTMarkers": "c4/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C2"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isobutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 86,
+        "QSIGHTMarkers": "c4/c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C3",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C3"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C3",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isobutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 87,
+        "QSIGHTMarkers": "c4/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C8"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Isobutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 36,
+        "QSIGHTMarkers": "c4",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "2-Methylbutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 90,
+        "QSIGHTMarkers": "c5/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C2"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "2-Methylbutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 91,
+        "QSIGHTMarkers": "c5/c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C3",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C3"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C3",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "2-Methylbutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 92,
+        "QSIGHTMarkers": "c5/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5",
+                "C8"
+            ],
+            "numerator_xml": "C5",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "2-Methylbutyryl-CoA dehydrogenase deficiency",
+        "MarkerID": 38,
+        "QSIGHTMarkers": "c5",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Methylcrotonyl-CoA carboxylase deficiency (11)",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Methylcrotonyl-CoA carboxylase deficiency",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Methylcrotonyl-CoA carboxylase deficiency",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Methylcrotonyl-CoA carboxylase deficiency",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "3-Methylglutaconyl-CoA hydratase deficiency",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "3-Methylglutaconyl-CoA hydratase deficiency",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "3-Methylglutaconyl-CoA hydratase deficiency",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Malonic aciduria",
+        "MarkerID": 95,
+        "QSIGHTMarkers": "c5dc\\c6oh/c3dc\\c4oh",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C5DC\\C6OH/C3DC\\C4OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C5DC\\C6OH",
+                "C3DC\\C4OH"
+            ],
+            "numerator_xml": "C5DC\\C6OH",
+            "numerator_type": "single",
+            "denominator_xml": "C3DC\\C4OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Malonic aciduria",
+        "MarkerID": 81,
+        "QSIGHTMarkers": "c3dc\\c4oh/c10",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3DC\\C4OH/C10",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3DC\\C4OH",
+                "C10"
+            ],
+            "numerator_xml": "C3DC\\C4OH",
+            "numerator_type": "single",
+            "denominator_xml": "C10",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Malonic aciduria",
+        "MarkerID": 35,
+        "QSIGHTMarkers": "c3dc\\c4oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3DC\\C4OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3DC\\C4OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 79,
+        "QSIGHTMarkers": "c3/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C2"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 78,
+        "QSIGHTMarkers": "c3/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C16"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 77,
+        "QSIGHTMarkers": "c3/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "C0"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 80,
+        "QSIGHTMarkers": "c3/met",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3/MET",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3",
+                "MET"
+            ],
+            "numerator_xml": "C3",
+            "numerator_type": "single",
+            "denominator_xml": "MET",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 110,
+        "QSIGHTMarkers": "met/phe",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "PHE"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 34,
+        "QSIGHTMarkers": "c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Combined methylmalonic acidemia and homocystinuria",
+        "MarkerID": 51,
+        "QSIGHTMarkers": "met",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "MET",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "MET"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "2-Methyl-3-hydroxybutyric acidemia (2-methyl-3-hydroxybutyryl-CoA dehydrogenase)",
+        "MarkerID": 89,
+        "QSIGHTMarkers": "c4dc\\c5oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C8"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "2-Methyl-3-hydroxybutyric acidemia (2-methyl-3-hydroxybutyryl-CoA dehydrogenase)",
+        "MarkerID": 88,
+        "QSIGHTMarkers": "c4dc\\c5oh/c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4DC\\C5OH/C0",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4DC\\C5OH",
+                "C0"
+            ],
+            "numerator_xml": "C4DC\\C5OH",
+            "numerator_type": "single",
+            "denominator_xml": "C0",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "2-Methyl-3-hydroxybutyric acidemia (2-methyl-3-hydroxybutyryl-CoA dehydrogenase)",
+        "MarkerID": 37,
+        "QSIGHTMarkers": "c4dc\\c5oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4DC\\C5OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4DC\\C5OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "2-Methyl-3-hydroxybutyric acidemia (2-methyl-3-hydroxybutyryl-CoA dehydrogenase)",
+        "MarkerID": 39,
+        "QSIGHTMarkers": "c5:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Phenylketonuria (PKU)",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Phenylketonuria (PKU)",
+        "MarkerID": 114,
+        "QSIGHTMarkers": "phe/leu\\ile\\pro-oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Phenylketonuria (PKU)",
+        "MarkerID": 53,
+        "QSIGHTMarkers": "phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "PHE",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "PHE"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Benign hyperphenylalaninemia (variant, benign) (phenylalanine hydroxylase)",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Benign hyperphenylalaninemia (variant, benign) (phenylalanine hydroxylase)",
+        "MarkerID": 114,
+        "QSIGHTMarkers": "phe/leu\\ile\\pro-oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Benign hyperphenylalaninemia (variant, benign) (phenylalanine hydroxylase)",
+        "MarkerID": 53,
+        "QSIGHTMarkers": "phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "PHE",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "PHE"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects",
+        "MarkerID": 114,
+        "QSIGHTMarkers": "phe/leu\\ile\\pro-oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects",
+        "MarkerID": 53,
+        "QSIGHTMarkers": "phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "PHE",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "PHE"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects (dihydropteridine reductase)",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects (dihydropteridine reductase)",
+        "MarkerID": 114,
+        "QSIGHTMarkers": "phe/leu\\ile\\pro-oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tetrahydrobiopterin (BH4) defects (dihydropteridine reductase)",
+        "MarkerID": 53,
+        "QSIGHTMarkers": "phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "PHE",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "PHE"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Maple syrup urine disease (MSUD)",
+        "MarkerID": 105,
+        "QSIGHTMarkers": "leu/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "LEU\\ILE\\PRO-OH/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "LEU\\ILE\\PRO-OH",
+                "PHE"
+            ],
+            "numerator_xml": "LEU\\ILE\\PRO-OH",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Maple syrup urine disease (MSUD)",
+        "MarkerID": 119,
+        "QSIGHTMarkers": "val/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "VAL/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "VAL",
+                "PHE"
+            ],
+            "numerator_xml": "VAL",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Maple syrup urine disease (MSUD)",
+        "MarkerID": 60,
+        "QSIGHTMarkers": "(leu+val)/(phe+tyr)",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "(LEU\\ILE\\PRO-OH+VAL)/(PHE+TYR)",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "LEU\\ILE\\PRO-OH",
+                "VAL",
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": [
+                "LEU\\ILE\\PRO-OH",
+                "VAL"
+            ],
+            "numerator_type": "sum",
+            "denominator_xml": [
+                "PHE",
+                "TYR"
+            ],
+            "denominator_type": "sum"
+        }
+    },
+    {
+        "DiseaseName": "Maple syrup urine disease (MSUD)",
+        "MarkerID": 50,
+        "QSIGHTMarkers": "leu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "LEU\\ILE\\PRO-OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Maple syrup urine disease (MSUD)",
+        "MarkerID": 57,
+        "QSIGHTMarkers": "val",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "VAL",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "VAL"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 1 (TYR1)",
+        "MarkerID": 55,
+        "QSIGHTMarkers": "sa",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "SA",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "SA"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 111,
+        "QSIGHTMarkers": "met/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "TYR"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 116,
+        "QSIGHTMarkers": "tyr/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "TYR/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "TYR",
+                "CIT"
+            ],
+            "numerator_xml": "TYR",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 56,
+        "QSIGHTMarkers": "tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "TYR",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "TYR"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 117,
+        "QSIGHTMarkers": "tyr/leu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "TYR/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "TYR",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "TYR",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 2 (TYR2)",
+        "MarkerID": 107,
+        "QSIGHTMarkers": "leu\\ile\\pro-oh/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "LEU\\ILE\\PRO-OH/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "LEU\\ILE\\PRO-OH",
+                "TYR"
+            ],
+            "numerator_xml": "LEU\\ILE\\PRO-OH",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 115,
+        "QSIGHTMarkers": "phe/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "PHE/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "PHE",
+                "TYR"
+            ],
+            "numerator_xml": "PHE",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 111,
+        "QSIGHTMarkers": "met/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "TYR"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 116,
+        "QSIGHTMarkers": "tyr/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "TYR/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "TYR",
+                "CIT"
+            ],
+            "numerator_xml": "TYR",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 56,
+        "QSIGHTMarkers": "tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "TYR",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "TYR"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 107,
+        "QSIGHTMarkers": "leu\\ile\\pro-oh/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "LEU\\ILE\\PRO-OH/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "LEU\\ILE\\PRO-OH",
+                "TYR"
+            ],
+            "numerator_xml": "LEU\\ILE\\PRO-OH",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Tyrosinemia type 3 (TYR3)",
+        "MarkerID": 117,
+        "QSIGHTMarkers": "tyr/leu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "TYR/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "TYR",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "TYR",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Homocystinuria",
+        "MarkerID": 109,
+        "QSIGHTMarkers": "met/leu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Homocystinuria",
+        "MarkerID": 110,
+        "QSIGHTMarkers": "met/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "PHE"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Homocystinuria",
+        "MarkerID": 111,
+        "QSIGHTMarkers": "met/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "TYR"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Homocystinuria",
+        "MarkerID": 108,
+        "QSIGHTMarkers": "met/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "CIT"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Homocystinuria",
+        "MarkerID": 51,
+        "QSIGHTMarkers": "met",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "MET",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "MET"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Hypermethioninemia",
+        "MarkerID": 109,
+        "QSIGHTMarkers": "met/leu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/LEU\\ILE\\PRO-OH",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "LEU\\ILE\\PRO-OH"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "LEU\\ILE\\PRO-OH",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hypermethioninemia",
+        "MarkerID": 110,
+        "QSIGHTMarkers": "met/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "PHE"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hypermethioninemia",
+        "MarkerID": 111,
+        "QSIGHTMarkers": "met/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "TYR"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hypermethioninemia",
+        "MarkerID": 108,
+        "QSIGHTMarkers": "met/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "CIT"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hypermethioninemia",
+        "MarkerID": 51,
+        "QSIGHTMarkers": "met",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "MET",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "MET"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Hyperornithinemia with gyrate atrophy",
+        "MarkerID": 113,
+        "QSIGHTMarkers": "orn/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "PHE"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hyperornithinemia with gyrate atrophy",
+        "MarkerID": 112,
+        "QSIGHTMarkers": "orn/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "CIT"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hyperornithinemia with gyrate atrophy",
+        "MarkerID": 52,
+        "QSIGHTMarkers": "orn",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ORN",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ORN"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency",
+        "MarkerID": 43,
+        "QSIGHTMarkers": "c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C8",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C8"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency",
+        "MarkerID": 41,
+        "QSIGHTMarkers": "c6",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C6",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C6"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency",
+        "MarkerID": 7,
+        "QSIGHTMarkers": "c10:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C10:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C10:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain acyl-CoA dehydrogenase (MCAD) deficiency",
+        "MarkerID": 6,
+        "QSIGHTMarkers": "c10",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C10",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C10"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 24,
+        "QSIGHTMarkers": "c18oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 18,
+        "QSIGHTMarkers": "c16oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 17,
+        "QSIGHTMarkers": "c16:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1OH\\C17",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1OH\\C17"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 21,
+        "QSIGHTMarkers": "c18:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:1OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:1OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 14,
+        "QSIGHTMarkers": "c14oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Long-chain hydroxyacyl-CoA dehydrogenase (LCHAD) deficiency",
+        "MarkerID": 23,
+        "QSIGHTMarkers": "c18:2oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:2OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:2OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 12,
+        "QSIGHTMarkers": "c14:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 11,
+        "QSIGHTMarkers": "c14",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 13,
+        "QSIGHTMarkers": "c14:2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14:2",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14:2"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 10,
+        "QSIGHTMarkers": "c12:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C12:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C12:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 9,
+        "QSIGHTMarkers": "c12",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C12",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C12"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 15,
+        "QSIGHTMarkers": "c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Very long-chain acyl-CoA dehydrogenase (VLCAD) deficiency",
+        "MarkerID": 16,
+        "QSIGHTMarkers": "c16:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Short-chain acyl-CoA dehydrogenase (SCAD) deficiency",
+        "MarkerID": 85,
+        "QSIGHTMarkers": "c4/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C2"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain acyl-CoA dehydrogenase (SCAD) deficiency",
+        "MarkerID": 86,
+        "QSIGHTMarkers": "c4/c3",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C3",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C3"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C3",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain acyl-CoA dehydrogenase (SCAD) deficiency",
+        "MarkerID": 87,
+        "QSIGHTMarkers": "c4/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C4/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C4",
+                "C8"
+            ],
+            "numerator_xml": "C4",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain acyl-CoA dehydrogenase (SCAD) deficiency",
+        "MarkerID": 36,
+        "QSIGHTMarkers": "c4",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Short-chain hydroxyacyl-CoA dehydrogenase (SCHAD) deficiency",
+        "MarkerID": 82,
+        "QSIGHTMarkers": "c3dc\\c4oh/c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3DC\\C4OH/C16",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3DC\\C4OH",
+                "C16"
+            ],
+            "numerator_xml": "C3DC\\C4OH",
+            "numerator_type": "single",
+            "denominator_xml": "C16",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain hydroxyacyl-CoA dehydrogenase (SCHAD) deficiency",
+        "MarkerID": 84,
+        "QSIGHTMarkers": "c3dc\\c4oh/c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3DC\\C4OH/C8",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3DC\\C4OH",
+                "C8"
+            ],
+            "numerator_xml": "C3DC\\C4OH",
+            "numerator_type": "single",
+            "denominator_xml": "C8",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain hydroxyacyl-CoA dehydrogenase (SCHAD) deficiency",
+        "MarkerID": 83,
+        "QSIGHTMarkers": "c3dc\\c4oh/c4",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C3DC\\C4OH/C4",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C3DC\\C4OH",
+                "C4"
+            ],
+            "numerator_xml": "C3DC\\C4OH",
+            "numerator_type": "single",
+            "denominator_xml": "C4",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Short-chain hydroxyacyl-CoA dehydrogenase (SCHAD) deficiency",
+        "MarkerID": 35,
+        "QSIGHTMarkers": "c3dc\\c4oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C3DC\\C4OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C3DC\\C4OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Short-chain hydroxyacyl-CoA dehydrogenase (SCHAD) deficiency",
+        "MarkerID": 40,
+        "QSIGHTMarkers": "c5dc\\c6oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5DC\\C6OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5DC\\C6OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 24,
+        "QSIGHTMarkers": "c18oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 18,
+        "QSIGHTMarkers": "c16oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 17,
+        "QSIGHTMarkers": "c16:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1OH\\C17",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1OH\\C17"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 21,
+        "QSIGHTMarkers": "c18:1oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:1OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:1OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 14,
+        "QSIGHTMarkers": "c14oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Trifunctional protein deficiency",
+        "MarkerID": 23,
+        "QSIGHTMarkers": "c18:2oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:2OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:2OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 36,
+        "QSIGHTMarkers": "c4",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C4",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C4"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 38,
+        "QSIGHTMarkers": "c5",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 41,
+        "QSIGHTMarkers": "c6",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C6",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C6"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 43,
+        "QSIGHTMarkers": "c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C8",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C8"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 9,
+        "QSIGHTMarkers": "c12",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C12",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C12"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 11,
+        "QSIGHTMarkers": "c14",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Multiple acyl-CoA dehydrogenase deficiency",
+        "MarkerID": 12,
+        "QSIGHTMarkers": "c14:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 64,
+        "QSIGHTMarkers": "c0/(c16+c18)",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0/(C16+C18)",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C0",
+                "C16",
+                "C18"
+            ],
+            "numerator_xml": "C0",
+            "numerator_type": "single",
+            "denominator_xml": [
+                "C16",
+                "C18"
+            ],
+            "denominator_type": "sum"
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 59,
+        "QSIGHTMarkers": "(c16+c18:1)/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "(C16+C18:1)/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C16",
+                "C18:1",
+                "C2"
+            ],
+            "numerator_xml": [
+                "C16",
+                "C18:1"
+            ],
+            "numerator_type": "sum",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 11,
+        "QSIGHTMarkers": "c14",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 15,
+        "QSIGHTMarkers": "c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 19,
+        "QSIGHTMarkers": "c18",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine-acylcarnitine translocase (CACT) deficiency",
+        "MarkerID": 16,
+        "QSIGHTMarkers": "c16:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 15,
+        "QSIGHTMarkers": "c16",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 19,
+        "QSIGHTMarkers": "c18",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 22,
+        "QSIGHTMarkers": "c18:2",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:2",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:2"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 20,
+        "QSIGHTMarkers": "c18:1",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 59,
+        "QSIGHTMarkers": "(c16+c18:1)/c2",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "(C16+C18:1)/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C16",
+                "C18:1",
+                "C2"
+            ],
+            "numerator_xml": [
+                "C16",
+                "C18:1"
+            ],
+            "numerator_type": "sum",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 64,
+        "QSIGHTMarkers": "c0/(c16+c18)",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0/(C16+C18)",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C0",
+                "C16",
+                "C18"
+            ],
+            "numerator_xml": "C0",
+            "numerator_type": "single",
+            "denominator_xml": [
+                "C16",
+                "C18"
+            ],
+            "denominator_type": "sum"
+        }
+    },
+    {
+        "DiseaseName": "Carnitine palmitoyltransferase type 1 (CPT1) deficiency",
+        "MarkerID": 5,
+        "QSIGHTMarkers": "c0",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C0"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 64,
+        "QSIGHTMarkers": "c0/(c16+c18)",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0/(C16+C18)",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C0",
+                "C16",
+                "C18"
+            ],
+            "numerator_xml": "C0",
+            "numerator_type": "single",
+            "denominator_xml": [
+                "C16",
+                "C18"
+            ],
+            "denominator_type": "sum"
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 59,
+        "QSIGHTMarkers": "(c16+c18:1)/c2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "(C16+C18:1)/C2",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C16",
+                "C18:1",
+                "C2"
+            ],
+            "numerator_xml": [
+                "C16",
+                "C18:1"
+            ],
+            "numerator_type": "sum",
+            "denominator_xml": "C2",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 11,
+        "QSIGHTMarkers": "c14",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C14",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C14"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 15,
+        "QSIGHTMarkers": "c16",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 19,
+        "QSIGHTMarkers": "c18",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C18",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C18"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Neonatal carnitine palmitoyltransferase type 2 (CPT2) deficiency",
+        "MarkerID": 16,
+        "QSIGHTMarkers": "c16:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C16:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C16:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Primary systemic carnitine deficiency (Carnitine uptake defect, CUD) (38)",
+        "MarkerID": 5,
+        "QSIGHTMarkers": "c0",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C0"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Primary systemic carnitine deficiency (Carnitine uptake defect, CUD)",
+        "MarkerID": 58,
+        "QSIGHTMarkers": "(c0+c2+c3+c16+c18:1+c18)/cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "(C0+C2+C3+C16+C18:1+C18)/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C0",
+                "C2",
+                "C3",
+                "C16",
+                "C18:1",
+                "C18",
+                "CIT"
+            ],
+            "numerator_xml": [
+                "C0",
+                "C2",
+                "C3",
+                "C16",
+                "C18:1",
+                "C18"
+            ],
+            "numerator_type": "sum",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Primary systemic carnitine deficiency (Carnitine uptake defect, CUD)",
+        "MarkerID": 5,
+        "QSIGHTMarkers": "c0",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C0",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C0"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Primary systemic carnitine deficiency (Carnitine uptake defect, CUD)",
+        "MarkerID": 25,
+        "QSIGHTMarkers": "c2",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C2",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C2"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 98,
+        "QSIGHTMarkers": "c8/c10",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "C8/C10",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "C8",
+                "C10"
+            ],
+            "numerator_xml": "C8",
+            "numerator_type": "single",
+            "denominator_xml": "C10",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 43,
+        "QSIGHTMarkers": "c8",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C8",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C8"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 44,
+        "QSIGHTMarkers": "c8:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C8:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C8:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 6,
+        "QSIGHTMarkers": "c10",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C10",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C10"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 7,
+        "QSIGHTMarkers": "c10:1",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C10:1",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C10:1"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Medium-chain ketoacyl-CoA thiolase deficiency (medium-chain ketoacyl-CoA thiolase)",
+        "MarkerID": 40,
+        "QSIGHTMarkers": "c5dc\\c6oh",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C5DC\\C6OH",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C5DC\\C6OH"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "2,4-dienoyl-CoA reductase deficiency (2,4-dienoyl-CoA reductase)",
+        "MarkerID": 8,
+        "QSIGHTMarkers": "c10:2",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C10:2",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C10:2"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 1 (CIT1)",
+        "MarkerID": 108,
+        "QSIGHTMarkers": "met/cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "CIT"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 1 (CIT1)",
+        "MarkerID": 100,
+        "QSIGHTMarkers": "cit/arg",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/ARG",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "ARG"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "ARG",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 1 (CIT1)",
+        "MarkerID": 101,
+        "QSIGHTMarkers": "cit/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "PHE"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 1 (CIT1)",
+        "MarkerID": 102,
+        "QSIGHTMarkers": "cit/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "TYR"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 1 (CIT1)",
+        "MarkerID": 45,
+        "QSIGHTMarkers": "cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "CIT",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "CIT"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 108,
+        "QSIGHTMarkers": "met/cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "MET/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "MET",
+                "CIT"
+            ],
+            "numerator_xml": "MET",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 112,
+        "QSIGHTMarkers": "orn/cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "CIT"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 101,
+        "QSIGHTMarkers": "cit/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "PHE"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 102,
+        "QSIGHTMarkers": "cit/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "TYR"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 62,
+        "QSIGHTMarkers": "arg/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ARG/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ARG",
+                "PHE"
+            ],
+            "numerator_xml": "ARG",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 45,
+        "QSIGHTMarkers": "cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "CIT",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "CIT"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Citrullinemia type 2 or Citrin deficiency",
+        "MarkerID": 3,
+        "QSIGHTMarkers": "arg",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ARG",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ARG"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 101,
+        "QSIGHTMarkers": "cit/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "PHE"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 100,
+        "QSIGHTMarkers": "cit/arg",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/ARG",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "ARG"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "ARG",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 63,
+        "QSIGHTMarkers": "asatotal/arg",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ASATOTAL/ARG",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ASATOTAL",
+                "ARG"
+            ],
+            "numerator_xml": "ASATOTAL",
+            "numerator_type": "single",
+            "denominator_xml": "ARG",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 102,
+        "QSIGHTMarkers": "cit/tyr",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "TYR"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 4,
+        "QSIGHTMarkers": "asatotal",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ASATOTAL",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ASATOTAL"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Argininosuccinic aciduria",
+        "MarkerID": 45,
+        "QSIGHTMarkers": "cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "CIT",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "CIT"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Argininemia",
+        "MarkerID": 61,
+        "QSIGHTMarkers": "arg/orn",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ARG/ORN",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ARG",
+                "ORN"
+            ],
+            "numerator_xml": "ARG",
+            "numerator_type": "single",
+            "denominator_xml": "ORN",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininemia",
+        "MarkerID": 3,
+        "QSIGHTMarkers": "arg",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ARG",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ARG"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Argininemia",
+        "MarkerID": 62,
+        "QSIGHTMarkers": "arg/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ARG/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ARG",
+                "PHE"
+            ],
+            "numerator_xml": "ARG",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Argininemia",
+        "MarkerID": 100,
+        "QSIGHTMarkers": "cit/arg",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/ARG",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "ARG"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "ARG",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hyperammonemia-Hyperornithinemia-Homocitrullinuria (HHH) syndrome",
+        "MarkerID": 113,
+        "QSIGHTMarkers": "orn/phe",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "PHE"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hyperammonemia-Hyperornithinemia-Homocitrullinuria (HHH) syndrome",
+        "MarkerID": 112,
+        "QSIGHTMarkers": "orn/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "CIT"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Hyperammonemia-Hyperornithinemia-Homocitrullinuria (HHH) syndrome",
+        "MarkerID": 52,
+        "QSIGHTMarkers": "orn",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ORN",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ORN"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Ornithine transcarbamylase deficiency",
+        "MarkerID": 101,
+        "QSIGHTMarkers": "cit/phe",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "PHE"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Ornithine transcarbamylase deficiency",
+        "MarkerID": 47,
+        "QSIGHTMarkers": "gln",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "GLN\\LYS",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "GLN\\LYS"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Ornithine transcarbamylase deficiency",
+        "MarkerID": 103,
+        "QSIGHTMarkers": "gln\\lys/glu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "GLN\\LYS/GLU",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "GLN\\LYS",
+                "GLU"
+            ],
+            "numerator_xml": "GLN\\LYS",
+            "numerator_type": "single",
+            "denominator_xml": "GLU",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Ornithine transcarbamylase deficiency",
+        "MarkerID": 45,
+        "QSIGHTMarkers": "cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "CIT",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "CIT"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Carbamoyl-phosphate synthase deficiency",
+        "MarkerID": 101,
+        "QSIGHTMarkers": "cit/phe",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/PHE",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "PHE"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "PHE",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carbamoyl-phosphate synthase deficiency",
+        "MarkerID": 100,
+        "QSIGHTMarkers": "cit/arg",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/ARG",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "ARG"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "ARG",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carbamoyl-phosphate synthase deficiency",
+        "MarkerID": 102,
+        "QSIGHTMarkers": "cit/tyr",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 2,
+        "xml_name": "CIT/TYR",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "CIT",
+                "TYR"
+            ],
+            "numerator_xml": "CIT",
+            "numerator_type": "single",
+            "denominator_xml": "TYR",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carbamoyl-phosphate synthase deficiency",
+        "MarkerID": 112,
+        "QSIGHTMarkers": "orn/cit",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "ORN/CIT",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "ORN",
+                "CIT"
+            ],
+            "numerator_xml": "ORN",
+            "numerator_type": "single",
+            "denominator_xml": "CIT",
+            "denominator_type": "single"
+        }
+    },
+    {
+        "DiseaseName": "Carbamoyl-phosphate synthase deficiency",
+        "MarkerID": 45,
+        "QSIGHTMarkers": "cit",
+        "InterpreteID": 2,
+        "IntMarkerGroupID": 1,
+        "xml_name": "CIT",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "CIT"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Severe combined immunodeficiency disease (Adenosine deaminase deficiency)",
+        "MarkerID": 1,
+        "QSIGHTMarkers": "ado",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "ADO",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "ADO"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Severe combined immunodeficiency disease (Adenosine deaminase deficiency)",
+        "MarkerID": 46,
+        "QSIGHTMarkers": "d-ado",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "D-ADO",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "D-ADO"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 27,
+        "QSIGHTMarkers": "c20:0-lpc",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C20:0-LPC",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C20:0-LPC"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 29,
+        "QSIGHTMarkers": "c22:0-lpc",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C22:0-LPC",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C22:0-LPC"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 31,
+        "QSIGHTMarkers": "c24:0-lpc",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C24:0-LPC",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C24:0-LPC"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 33,
+        "QSIGHTMarkers": "c26:0-lpc",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C26:0-LPC",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C26:0-LPC"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 32,
+        "QSIGHTMarkers": "c26",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C26",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C26"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 30,
+        "QSIGHTMarkers": "c24",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C24",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C24"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 28,
+        "QSIGHTMarkers": "c22",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C22",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C22"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "X-linked adrenoleukodystrophy",
+        "MarkerID": 26,
+        "QSIGHTMarkers": "c20",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "C20",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "C20"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Hyperlysinemia",
+        "MarkerID": 47,
+        "QSIGHTMarkers": "gln",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "GLN\\LYS",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "GLN\\LYS"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Hyperlysinemia",
+        "MarkerID": 49,
+        "QSIGHTMarkers": "gly",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 1,
+        "xml_name": "GLY",
+        "parsed": {
+            "type": "single",
+            "xml_markers": [
+                "GLY"
+            ]
+        }
+    },
+    {
+        "DiseaseName": "Hyperlysinemia",
+        "MarkerID": 103,
+        "QSIGHTMarkers": "gln\\lys/glu",
+        "InterpreteID": 1,
+        "IntMarkerGroupID": 2,
+        "xml_name": "GLN\\LYS/GLU",
+        "parsed": {
+            "type": "ratio",
+            "xml_markers": [
+                "GLN\\LYS",
+                "GLU"
+            ],
+            "numerator_xml": "GLN\\LYS",
+            "numerator_type": "single",
+            "denominator_xml": "GLU",
+            "denominator_type": "single"
+        }
+    }
+]
