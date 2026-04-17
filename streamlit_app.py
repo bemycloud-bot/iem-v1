@@ -394,20 +394,11 @@ def build_additional_pattern_support_report(
             abnormal_count = len(abnormal_marker_names)
             total_pattern_marker_count = len(markers)
 
-            representative = pick_marker_for_disease(sample_marker_df, markers)
             support_ratio = abnormal_count / available_marker_count
-            rep_value = pd.to_numeric(pd.Series([representative.get("value_numeric")]), errors="coerce").iloc[0]
-            rep_upper = pd.to_numeric(pd.Series([representative.get("upper_cutoff_numeric")]), errors="coerce").iloc[0]
-            rep_is_ratio = bool(representative.get("is_ratio_marker", False))
-            include_by_rep_marker = (
-                (not rep_is_ratio)
-                and pd.notna(rep_value)
-                and pd.notna(rep_upper)
-                and float(rep_upper) > 0
-                and float(rep_value) > (0.5 * float(rep_upper))
-            )
-            if support_ratio <= 0.5 and not include_by_rep_marker:
+            if support_ratio <= 0.3:
                 continue
+
+            representative = pick_marker_for_disease(sample_marker_df, markers)
             rows.append(
                 {
                     "sample_id": str(sample_id),
@@ -485,7 +476,7 @@ def _format_cutoff_value(value: object) -> str:
     return "-" if pd.isna(numeric) else f"{float(numeric):.4f}"
 
 
-def pick_marker_for_disease(sample_marker_df: pd.DataFrame, disease_markers: list[str]) -> dict[str, object]:
+def pick_marker_for_disease(sample_marker_df: pd.DataFrame, disease_markers: list[str]) -> dict[str, str]:
     best = _select_marker_by_triage(sample_marker_df, disease_markers)
     if best is None:
         return {
@@ -495,9 +486,6 @@ def pick_marker_for_disease(sample_marker_df: pd.DataFrame, disease_markers: lis
             "lower_cutoff": "-",
             "upper_cutoff": "-",
             "cutoff_status": "-",
-            "value_numeric": None,
-            "upper_cutoff_numeric": None,
-            "is_ratio_marker": False,
         }
 
     marker = str(best.get("marker", "-") or "-")
@@ -505,9 +493,6 @@ def pick_marker_for_disease(sample_marker_df: pd.DataFrame, disease_markers: lis
     mom = best.get("MoM")
     lo = best.get("lower_cutoff")
     hi = best.get("upper_cutoff")
-    value_numeric = pd.to_numeric(pd.Series([val]), errors="coerce").iloc[0]
-    upper_cutoff_numeric = pd.to_numeric(pd.Series([hi]), errors="coerce").iloc[0]
-    is_ratio_marker = "/" in marker
     below_value = pd.to_numeric(pd.Series([best.get("below_cutoff")]), errors="coerce").iloc[0]
     above_value = pd.to_numeric(pd.Series([best.get("above_cutoff")]), errors="coerce").iloc[0]
     below = bool(pd.notna(below_value) and float(below_value) > 0)
@@ -526,9 +511,6 @@ def pick_marker_for_disease(sample_marker_df: pd.DataFrame, disease_markers: lis
         "lower_cutoff": _format_cutoff_value(lo),
         "upper_cutoff": _format_cutoff_value(hi),
         "cutoff_status": ", ".join(exceeded_parts) if exceeded_parts else "within cut-off",
-        "value_numeric": None if pd.isna(value_numeric) else float(value_numeric),
-        "upper_cutoff_numeric": None if pd.isna(upper_cutoff_numeric) else float(upper_cutoff_numeric),
-        "is_ratio_marker": is_ratio_marker,
     }
 
 
@@ -1411,9 +1393,9 @@ if run_button:
                 )
 
             with tab3:
-                st.caption("Diseases outside the model training set, reported when >50% of available pattern markers are out of cut-off, or when the representative non-ratio marker value is >50% of its upper cut-off.")
+                st.caption("Diseases outside the model training set, reported when more than 30% of the pattern markers found in that sample are outside cut-off.")
                 if additional_pattern_df.empty:
-                    st.info("No additional disease-pattern signals met either rule: >50% abnormal-marker support or representative non-ratio marker value >50% of upper cut-off.")
+                    st.info("No additional disease-pattern signals exceeded the >30% abnormal-marker threshold among markers available in the sample.")
                 else:
                     st.dataframe(additional_pattern_df, use_container_width=True)
                 st.download_button(
