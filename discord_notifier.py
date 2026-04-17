@@ -50,29 +50,7 @@ def send_iem_screening_report(
     if not webhook_url:
         return
 
-    # Build summary text
-    summary_lines = [
-        "**IEM Screening Summary**",
-        f"Total samples processed: **{total_samples}**",
-        f"Normal / no signal: **{normal_count}**",
-        (
-            "Cases requiring attention: "
-            f"**{flagged_count}** model-flagged, **{additional_signal_count}** additional pattern signals"
-        ),
-        "",
-        "**Model-flagged sample IDs**",
-        ", ".join(map(str, flagged_ids)) if flagged_ids else "None",
-    ]
-    if additional_signal_ids:
-        summary_lines.extend([
-            "",
-            "**Additional pattern-signal sample IDs**",
-            ", ".join(map(str, additional_signal_ids)),
-        ])
-    
-    summary_text = "\n".join(summary_lines)
-    
-    # Send initial message with summary
+    # Send initial message with embed only (no duplicate plain text)
     embed = {
         "title": "IEM Screening Report",
         "color": 16711680 if flagged_count > 0 else 65280,  # Red if flagged, green otherwise
@@ -98,7 +76,6 @@ def send_iem_screening_report(
         })
     
     payload = {
-        "content": summary_text,
         "embeds": [embed],
     }
     
