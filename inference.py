@@ -330,8 +330,8 @@ def load_feature_engineering_assets(
     return FeatureAssets(median_map=median_map, cutoff_map=cutoff_map, pattern_df=pattern_df)
 
 
-def build_marker_weights(train_csv: Path, pattern_df: Optional[pd.DataFrame], gain: float = 0.50) -> Dict[str, float]:
-    if pattern_df is None or not train_csv.exists():
+def build_marker_weights(train_csv: Optional[Path], pattern_df: Optional[pd.DataFrame], gain: float = 0.50) -> Dict[str, float]:
+    if pattern_df is None or train_csv is None or not train_csv.exists():
         return {}
 
     train_df = pd.read_csv(train_csv)
@@ -566,7 +566,7 @@ def predict_from_dataframe(
     input_df: pd.DataFrame,
     model_path: Path = DEFAULT_MODEL_PATH,
     class_mapping_path: Path = DEFAULT_CLASS_MAPPING_PATH,
-    train_csv_path: Path = DEFAULT_TRAIN_CSV,
+    train_csv_path: Optional[Path] = DEFAULT_TRAIN_CSV,
     id_column: Optional[str] = None,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, str]:
     register_pickle_compat_classes()

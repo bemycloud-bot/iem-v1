@@ -35,7 +35,7 @@ Open: `http://localhost:8515`
 - Class mapping: `comparisons/class_mapping.csv`
 - Disease patterns: `disease_patterns.json`
 - Cut-off Excel: `Edit20260116_KCMH_cut-off-Summary_N28778_48to72_Normals.xlsx`
-- Training CSV (for marker weighting): `new2Top6EditRename_New_Clean_Chula_MPIEM_group.csv`
+- Training CSV (optional, for marker weighting only): `new2Top6EditRename_New_Clean_Chula_MPIEM_group.csv`
 
 ## Optional Discord webhook
 Create `.env` in this folder:

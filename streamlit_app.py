@@ -1194,11 +1194,12 @@ if run_button:
             else:
                 dfs = [pd.read_csv(f) for f in uploaded_files]
                 input_df = pd.concat(dfs, ignore_index=True) if len(dfs) > 1 else dfs[0]
+                effective_train_csv_path = train_csv_path if train_csv_path.exists() else None
                 predictions_df, marker_detail_df, detected_id_col = predict_from_dataframe(
                     input_df=input_df,
                     model_path=model_path,
                     class_mapping_path=class_mapping_path,
-                    train_csv_path=train_csv_path,
+                    train_csv_path=effective_train_csv_path,
                     id_column=manual_id_col.strip() or None,
                 )
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
