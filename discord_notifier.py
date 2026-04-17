@@ -4,10 +4,18 @@ from io import BytesIO
 from typing import Optional
 from datetime import datetime
 import textwrap
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
 import matplotlib.pyplot as plt
+
+
+THAILAND_TZ = ZoneInfo("Asia/Bangkok")
+
+
+def _now_th() -> datetime:
+    return datetime.now(THAILAND_TZ)
 
 
 def send_discord_result(
@@ -65,7 +73,7 @@ def send_iem_screening_report(
                 "inline": False,
             },
         ],
-        "timestamp": datetime.utcnow().isoformat(),
+        "timestamp": _now_th().isoformat(),
     }
     
     if additional_signal_ids:
@@ -163,7 +171,7 @@ def build_iem_screening_png_report(
     ax.set_facecolor("white")
     ax.axis("off")
 
-    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    generated_at = _now_th().strftime("%Y-%m-%d %H:%M:%S")
     flagged_text = ", ".join(map(str, flagged_ids)) if flagged_ids else "None"
     additional_text = ", ".join(map(str, additional_signal_ids)) if additional_signal_ids else "None"
     flagged_text = textwrap.fill(flagged_text, width=120)
@@ -392,7 +400,7 @@ def build_additional_signal_ids_png(
     additional_signal_details_df: Optional[pd.DataFrame] = None,
 ) -> list:
     """Return a list of PNG BytesIO pages. Splits into pages of 7 rows when there are more than 7 detail rows."""
-    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    generated_at = _now_th().strftime("%Y-%m-%d %H:%M:%S")
     ids = [str(x) for x in additional_signal_ids] if additional_signal_ids else []
     total_ids = len(ids)
     has_details = additional_signal_details_df is not None and not additional_signal_details_df.empty
