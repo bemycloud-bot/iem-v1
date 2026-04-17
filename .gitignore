@@ -18,7 +18,6 @@ env/
 # Build and output artifacts
 outputs/
 *.log
-new2Top6EditRename_New_Clean_Chula_MPIEM_group.csv
 
 # macOS
 .DS_Store
